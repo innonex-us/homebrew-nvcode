@@ -1,28 +1,28 @@
 class Nvcode < Formula
   desc "A small, fast terminal coding agent for NVIDIA-hosted open models"
   homepage "https://github.com/innonex-us/nvcode"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.4/nvcode-0.2.4-aarch64-apple-darwin.tar.gz"
-      sha256 "19f3f8528af020165fd56b0870faf30d9ffa1ef94ce0e41de5ca459899d6ba9f"
+      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.5/nvcode-0.2.5-aarch64-apple-darwin.tar.gz"
+      sha256 "0ffbb143fd7c9ea96cb7f513eaba08ac38d22d885abae4e38fb8650ed15a9fad"
     end
     on_intel do
-      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.4/nvcode-0.2.4-x86_64-apple-darwin.tar.gz"
-      sha256 "bb031e3a1460f7f8c967822e04908d94431a4a6172817eca1ac0c713e0407727"
+      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.5/nvcode-0.2.5-x86_64-apple-darwin.tar.gz"
+      sha256 "7bdbeb3404290c2d21de6c5d4717914063d69e9e438e6f3a6d1df12b7913984b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.4/nvcode-0.2.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5e51877568e8078a9048a46cd972ec8fea49f359c9644d1259c8e295d07c9ced"
+      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.5/nvcode-0.2.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc2884cc7d9e86db126d9146b822510872bd0e63413d4d49b3aa055b2c263f79"
     end
     on_intel do
-      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.4/nvcode-0.2.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "43fa0e78deb95330dc5bd28dd98ea944699b0837a3cd994c1c9d8086afd7f765"
+      url "https://github.com/innonex-us/nvcode/releases/download/v0.2.5/nvcode-0.2.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fff5a4e95e2304d6aa12ae2ba8ebfa6f97e45c91f7b5db5b6bf27a38f866a186"
     end
   end
 
