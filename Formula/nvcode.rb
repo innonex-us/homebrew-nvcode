@@ -34,5 +34,3 @@ class Nvcode < Formula
     assert_match "nvcode", shell_output("#{bin}/nvcode --version")
   end
 end
-
-# publish path test
